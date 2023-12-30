@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <title>Restaurant website</title>
+      
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="custom-css/custom-css.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="custom-js/custom-js.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <header>
+        <nav id="navigation-bar" class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark">
+            <a class="navbar-brand" href="index.html">
+                <img id="website-logo" src="images/logo.png" alt="Logo">
+                <h3>Halal Food Corner</h3>
+                <span><img id="certify-image" src="images/certify.png"><p class="navbar-text">Kosher's Certified</p></span>
+            </a>    
+            <button id="menu-button" class="navbar-toggler d-sm-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li id="indexlink" class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li id="aboutuslink" class="nav-item">
+                    <a class="nav-link" href="#" onclick="$dc.loadAboutUsSnippet();">About</a>
+                  </li>
+                  <li id="contactlink" class="nav-item">
+                    <a class="nav-link" href="#" onclick="$dc.loadContactSnippet();">Contact</a>
+                  </li>
+                  <li id="signuplink" class="nav-item">
+                    <a class="nav-link" href="signup.html">SignUp</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <body class="signup-body">
+        <div class="container-fluid">
+            
+        </div>
+    </body>
+    <footer class="panel-footer">
+        <div class="row">
+          <section class="col-sm-4" id="hours">
+            <span>Hours:</span><br>
+            Sun-Thurs: 10:00am - 10:00pm<br>
+            Fri: 2:00pm - 6:00pm<br>
+            Saturday: CLOSED
+            <hr class="d-block d-sm-none" size="1">
+          </section>
+          <section class="col-sm-4" id="address">
+            <span>Address:</span><br>
+            Example 12 street,<br>
+            Johnsmith Block-C
+            <p>*Delivery area covers 5KM within the Restaurant</p>
+            <hr class="d-block d-sm-none" size="1">
+          </section>
+          <section class="col-sm-4" id="testimonials">
+            <p>
+              "The best Restaurant to be at during fridays and sundays with amazing special dishes, regular days
+              have the best affordable and quality edibles!"
+            </p>
+            <p>
+              "Very peaceful and cosy interior the Restaurant is equipped with which makes you feel 
+              comfortable while having your food."
+            </p>
+          </section>
+        </div>
+        <div id="Copyright" class="text-center">&copy; Copyright My Restaurant</div>
+      </footer>
+    </html>
