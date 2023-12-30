@@ -1,5 +1,0 @@
-{"category":{"id":1,"name":"Breakfast","short_name":"Br","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice (Vegetable Fried RIce, Steamed Rice, Brown Rice), AND EITHER soup (Hot & Sour, Wonton, Vegetable, Egg Drop, Chicken Corn Soup) OR veggie egg roll. $1.00 extra to have both soup and egg roll."},
-"menu_items":[
-    {"description":"very good pancakes","name":"Pancakes","price_small":35,"price_large":50,"short_name":"B1"},
-    {"description":"very good omellete","name":"Omellete","price_small":20,"price_large":30,"short_name":"B2"}
-]}
