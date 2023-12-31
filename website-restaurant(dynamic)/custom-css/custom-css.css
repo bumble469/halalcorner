@@ -1,0 +1,609 @@
+::-webkit-scrollbar {
+    display: none;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    font-size:16px;
+    color:white;
+    background:url('bg-wooden.jpg');
+    background-attachment: fixed;
+    font-family: arial;
+    overflow-x:hidden;
+    margin: 0;
+}
+#navigation-bar{
+    background: linear-gradient(45deg,rgb(12, 12, 12),rgb(32, 32, 32),rgb(65, 64, 64));
+}
+#navbarNav{
+    text-align: center;
+}
+#website-logo{
+    float: left;
+    margin-right: 5px;
+}
+#certify-image{
+    height:20px;
+    width:20px;
+}
+.navbar-brand h3 ,.login-body h2,.signup-body h2{
+    color:rgb(207, 53, 53);
+    font-family: trebuchet;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-shadow: 2px 1px 1px grey;
+}
+.navbar-brand p{
+    font-size: medium;
+    font-weight: bold;
+}
+.nav-link{
+    font-family: trebuchet;
+}
+#menu-button{
+    border:2px solid black;
+    transition-duration: 0.2s;
+}
+#menu-button:hover{
+    border:2px solid rgb(107, 102, 102)
+}
+#main-content{
+    margin-top:0%;
+}
+.container-fluid #div1{
+    width: auto;
+}
+.jumbotron-text{
+    color:beige;
+    font-family: trebuchet;
+    font-weight: bolder;
+    text-shadow: 2px 2px 8px black;
+    font-size:90px;
+    float: right;
+    clear: right;
+}
+#jumbotron-text-l{
+    margin-top: 8%;
+}
+#jumbotron-text-s{
+    font-size: 20px;
+}
+.jumbotron-hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ccc, rgba(0, 0, 0, 0));
+    margin: 20px 0;
+    width: 50%;
+    float: right;
+    clear: both;
+}
+.jumbotron-hr-form{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ccc, rgba(0, 0, 0, 0));
+    height: 2px;
+}
+.jumbotron-text-b{
+    float: right;
+    clear: right;
+    border-radius: 1px;
+    color: #fff;
+    background-color: #6b0208;
+    border: 2px solid #6b0208;
+    cursor: pointer;
+    font-family: trebuchet;
+    font-weight: bold;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+}
+.jumbotron-text-b:hover{
+    background-color: #88060c;
+    border-color: #b1060e;
+}
+#home-tiles{
+    margin-top:30px;
+}
+#menu-tile,#specials-tile,#map-tile{
+    height: 250px;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    border:2px solid black;
+    margin-bottom:15px;
+    transition-duration: 0.2s;
+}
+#menu-tile:hover,#specials-tile:hover,#map-tile:hover{
+    border:2px solid rgb(190, 164, 164);
+}
+#menu-tile{
+    background: url('menu-tile.jpg') no-repeat;
+    background-position: center;
+}
+#specials-tile{
+    background: url('specials-tile.jpg') no-repeat;
+    background-position: center;
+}
+#menu-tile span,#specials-tile span,#map-tile span{
+    position: absolute;
+    width: 100%;
+    right:0;
+    bottom:0;
+    text-align: center;
+    font-size:1.6em;
+    text-transform: uppercase;
+    background-color: rgb(34, 33, 31);
+    color:rgb(214, 197, 197);
+    opacity:0.7;
+}
+.panel-footer{
+    background-color: #181717;
+    opacity: 0.7;
+    padding: 35px 10px 10px 30px;
+    margin-top: 20px;
+}
+.panel-footer hr{
+    border: 1px solid white;
+}
+#hours,#address{
+    line-height: 2;
+}
+#hours span,#address span{
+    font-size: 1.3em;
+}
+#address p{
+    color:green;
+    line-height: 1.8;
+    font-size: .8em;
+}
+#testimonials{
+    font-style: italic;
+}
+#testimonials p:nth-child(2){
+    margin-top:20px;
+}
+#Copyright{
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* -----------------STYLING FOR MENU CATEGORY PAGE--------------------------- */
+.menu-categories-body .container-fluid{
+    background-color: rgb(90, 18, 9,0.7);
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+}
+#menu-categories{
+    font-family: trebuchet;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 8px rgb(24, 23, 23);
+}
+.category-tile{
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+}
+.category-tile:hover{
+    box-shadow: 0 1px 5px 4px rgb(173, 170, 170);
+}
+.category-tile span{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:1.3em;
+    background-color: rgb(100, 95, 95);
+    color:white;
+    opacity: 0.8;
+}
+/* -----------------ENDING FOR MENU CATEGORY PAGE--------------------------- */
+/* -----------------STYLING FOR SINGLE MENU CATEGORY PAGE--------------------------- */
+#menu-categories-title{
+    font-family: trebuchet;
+    text-shadow: 1px 1px 8px rgb(24, 23, 23);
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.menu-item-tile{
+    margin-bottom:25px;
+}
+.d-block{
+    border: 1px solid rgb(185, 178, 178);
+}
+.menu-item-tile .menu-item-price{
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: 0px;
+    margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span{
+    font-size: .6em;
+}
+.menu-item-photo{
+    position: relative;
+    border:1px solid white;
+    overflow: hidden;
+    padding: 0;
+    margin-right:-15px;
+    margin-left:auto;
+    margin-bottom:5px;
+    max-width: 250px;
+}
+.menu-item-photo div{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    width: 80px;
+    text-align: center;
+    background-color: rgb(9, 128, 55);
+}
+.menu-item-desc{
+    padding-right: 30px;
+}
+h3.menu-item-title{
+    margin:0 0 10px;
+}
+.menu-item-details{
+    font-style: italic;
+    font-size: .9em;
+}
+#backbutton{
+    transition-duration: 0.2s;
+}
+#backbutton:hover{
+    height: 40px;
+    width: 40px;
+}
+/* -----------------ENDING FOR SINGLE MENU CATEGORY PAGE--------------------------- */
+
+/* -----------------START FOR LOGIN/SIGNUP PAGE--------------------------------------------*/
+
+.login-body .container,.signup-body .container{
+    background-color: rgb(90, 18, 9,0.7);
+    padding: 20px 30px 30px 20px;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 30px;
+}
+.form-group{
+    font-family: trebuchet;
+}
+.form-control{
+    background: transparent;
+    transition-duration: 0.2s;
+    border-radius: 30px;
+}
+.form-control:hover{
+    border: 1px solid grey;
+}
+.login-btn{
+    width: 40%;
+    border-radius: 20px;
+    background-color: #6b0208;
+    font-family: trebuchet;
+    color:white;
+    font-weight: bolder;
+    border: 1px solid #6b0208;
+    margin-top:10px;
+    transition-duration: 0.2s;
+    letter-spacing: 1px;
+}
+.login-btn:hover{
+    background-color: #b1060e;
+    border: 1px solid #b1060e;
+    letter-spacing: 2px;
+}
+/* -----------------ENDING FOR LOGIN/SIGNUP PAGE--------------------------------------------*/
+
+/* -----------------STYLING FOR ABOUT US PAGE--------------------------- */
+.aboutus-body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.aboutus-body .container{
+    margin-top: 30px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: rgb(90, 18, 9,0.7);
+    box-shadow: 1px 1px 6px black inset;
+}
+.aboutus-body .container h3,p{
+    font-family: trebuchet;
+    color:#d6c6c6;
+    font-weight: 800;
+    font-style: italic;
+    word-spacing: 2px;
+}
+#about-links{
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: trebuchet;
+}
+#about-links a{
+    color:#d6c6c6;
+    transition-duration: 0.2s;
+}
+#about-links a:hover{
+    color:#e6dcdc;
+}
+.jumbotron-hr-about{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ccc, rgba(0, 0, 0, 0));
+    margin: 20px 0;
+    width: 100%;
+}
+#about-info,#about-img-main-div{
+    display: grid;
+}
+.about-content{
+    grid-column: 1;
+    grid-row: 1;
+}
+#owner{
+    text-decoration: underline;
+}
+#staff-content,#achievements-content{
+    visibility: hidden;
+}
+#about-pic-div{
+    background: url('../images/about-owner-min.jpg') center no-repeat;
+    background-size: cover;
+}
+/* -----------------ENDING FOR ABOUT US PAGE--------------------------- */
+
+/* -----------------STYLING CONTACT PAGE--------------------------- */
+.contact-body .container{
+    margin-top: 30px;
+    padding: 20px 30px 10px 20px;
+    font-family: trebuchet;
+    background-color: rgb(90, 18, 9,0.7);
+    box-shadow:1px 1px 5px black;
+}
+.contact-body .container h2,h5{
+    text-align: center;
+    font-weight: 800;
+}
+.contact-body .container .row #lsec,#rsec{
+    padding: 30px 40px 30px 40px;
+}
+.contact-details{
+    margin-bottom: 20px;
+}
+.btn-mail{
+    width: 40%;
+    border-radius: 20px;
+    background-color: #6b0208;
+    font-family: trebuchet;
+    color:white;
+    font-weight: bolder;
+    border: 1px solid #6b0208;
+    margin-top:10px;
+    transition-duration: 0.2s;
+    letter-spacing: 1px;
+}
+.btn-mail:hover{
+    background-color: #b1060e;
+    border: 1px solid #b1060e;
+    letter-spacing: 2px;
+}
+.icons{
+    display: flex;
+    justify-content:space-between
+}
+/* -----------------ENDING FOR CONTACT US PAGE--------------------------- */
+
+/* Extra Large Devices */
+@media(min-width:1200px){
+    #website-logo{
+        margin-top: 0px;
+    }
+    .container-fluid .jumbotron{
+        background: url('rest-1-large.jpg') bottom no-repeat;
+        height: 677px;
+        box-shadow:2px 1px 0px 0px black;
+        background-attachment: fixed;
+    }
+    .category-tile{
+        height: 180px;
+        width: 180px;
+    }
+
+}
+/* Large Devices */
+@media(min-width:992px) and (max-width:1199px){
+    #website-logo{
+        height: 7vw;
+        width: 7vw;
+        margin-top: 10px;
+    }
+    .container-fluid #div1{
+        background: url('rest-1-med.jpg') bottom no-repeat;
+        height: 558px;
+        box-shadow:2px 1px 0px 0px black;
+        background-attachment: fixed;
+    }
+    .jumbotron-text{
+        font-size: 75px;
+    }
+    #jumbotron-text-s{
+        font-size: 16px;
+    }
+    .login-body .container,.signup-body .container{
+        width: 60%;
+        height:50%
+    }
+}
+/* Medium Devices */
+@media(min-width:768px) and (max-width:991px){
+    #website-logo{
+        height: 9vw;
+        width: 9vw;
+        margin-top: 5px;
+    }
+    .container-fluid #div1{
+        background: url('rest-1-small.jpg') bottom no-repeat;
+        height: 432px;
+        box-shadow:2px 1px 0px 0px black;
+        background-attachment: fixed;
+    }
+    .jumbotron-text{
+        font-size: 60px;
+    }
+    #jumbotron-text-s{
+        font-size: 14px;
+    }
+    .login-body .container .signup-body .container{
+        width: 60%;
+        height:50%
+    }
+}
+/* Small Devices */
+@media(max-width:767px) and (min-width:576px){
+    #navigation-bar a h3{
+        font-size: 1.4em;
+    }
+    #website-logo{
+        height: 8vw;
+        width: 8vw;
+        margin-top: 10px;
+    }
+    .container-fluid #div1{
+        background: url('rest-1-smaller.jpg') bottom no-repeat;
+        height: 280px;
+        box-shadow:2px 1px 0px 0px black;
+        background-attachment: fixed;
+    }
+    .jumbotron-text{
+        font-size: 40px;
+    }
+    #jumbotron-text-s{
+        font-size: 10px;
+    }
+    .jumbotron-text-b{
+        margin-top: -20px;
+    }
+    .panel-footer section{
+        text-align: center;
+    }
+    .panel-footer hr{
+        width: 50%;
+    }
+    .menu-item-photo{
+        margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price{
+        text-align: center;
+    }
+    .menu-item-desc{
+        text-align: center;
+    }
+    .login-body .container,.signup-body .container{
+        width: 70%;
+        height:50%
+    }
+    #about-pic-div{
+        grid-row: 2;
+        height: 300px;
+        background-size:cover;
+    }
+
+}
+/* Extra Small Devices */
+@media(max-width:575px){
+    #navigation-bar a h3{
+        font-size: 1.1em;
+    }
+    #website-logo{
+        height: 8vw;
+        width: 8vw;
+        margin-top: 10px;
+    }
+    #menu-button{
+        margin-top: 20px;
+    }
+    .container-fluid #div1{
+        background: url('rest-1-ex-small.jpg') top;
+        height: 280px;
+        box-shadow:2px 1px 0px 0px black;
+        background-attachment: fixed;
+    }
+    .jumbotron-text{
+        font-size: 35px;
+        margin-right: 20px;
+    }
+    #jumbotron-text-s{
+        font-size: 9px;
+    }
+    .jumbotron-text-b{
+        margin-right: 20px;
+    }
+    .panel-footer section{
+        text-align: center;
+    }
+    .panel-footer hr{
+        width: 50%;
+    }
+    .menu-item-photo{
+        margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price{
+        text-align: center;
+    }
+    .menu-item-desc{
+        text-align: center;
+    }
+    .login-body .container,.signup-body .container{
+        width: 75%;
+    }
+    #about-pic-div{
+        grid-row: 2;
+        height: 200px;
+        background-size:cover;
+    }
+}
+@media(max-width:315px){
+    #navigation-bar a span p{
+        font-size: small;
+    }
+    #certify-image{
+        height: 17px;
+        width: 17px;
+    }
+    #menu-button{
+        height: max-content;
+        width: max-content;
+        padding: 0;
+    }
+    .navbar-toggler-icon{
+        height: 8vw;
+        width: 8vw;
+        margin: 0;
+    }
+    .jumbotron-text{
+        font-size: 25px;
+        margin-right: 5px;
+    }
+    .jumbotron-text-b{
+        font-size: 3vw;
+        height: 9vw;
+        width: 25vw;
+    }
+}
+
