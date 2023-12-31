@@ -1,0 +1,5 @@
+{"category":{"id":2,"name":"Lunch","short_name":"L","special_instructions":"Sunday-Friday 11:15am-3:00pm. Served with your choice of rice (Vegetable Fried RIce, Steamed Rice, Brown Rice), AND EITHER soup (Hot & Sour, Wonton, Vegetable, Egg Drop, Chicken Corn Soup) OR veggie egg roll. $1.00 extra to have both soup and egg roll."},
+"menu_items":[
+    {"description":"freshly seasoned vegetable mix","name":"Mixed Vegetable","price_small":40,"price_large":60,"short_name":"L1"},
+    {"description":"Dal Tadka with coriander sprinkles","name":"Dal Tadka","price_small":30,"price_large":45,"short_name":"L2"}
+]}
